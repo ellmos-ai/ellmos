@@ -1,4 +1,4 @@
-# ellmos - Extensive Large Language Model Operating Systems
+# ellmos - Extra Large Language Model Operating Systems
 
 *From a spring to a stream -- LLM operating systems that flow.*
 
@@ -134,5 +134,5 @@ All ellmos projects are released under the **MIT License**.
 
 ---
 
-*ellmos -- Extensive Large Language Model Operating Systems*
+*ellmos -- Extra Large Language Model Operating Systems*
 *The stream that unites everything.*
