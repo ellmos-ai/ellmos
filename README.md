@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="ellmos-logo.jpg" alt="ellmos logo" width="400">
+</p>
+
 # ellmos - Extra Large Language Model Operating Systems
 
 *From a spring to a stream -- LLM operating systems that flow.*
