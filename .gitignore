@@ -1,0 +1,5 @@
+# Lokal geklonte Schwester-Repos und GithubBot-interne Verwaltungs-Dateien
+# (gehoeren nicht ins ellmos Meta-Repo)
+/.github/
+/ellmos-ai-profile/
+COMMUNITY_MEMBERS.md
