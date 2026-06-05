@@ -11,9 +11,19 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?logo=sqlite)
 
-**ellmos** (XLLM-OS) is a family of text-based operating systems that empower Large Language Models to work autonomously, learn, and self-organize. All projects are local-first, SQLite-based, and MIT-licensed.
+**ellmos** (XLLM-OS) is a local-first family of text-based operating systems for Large Language Models: agent memory, task state, MCP tools, skills, connector bridges, model routing, and multi-agent orchestration in small SQLite-backed projects. It is designed for people who want an AI operating layer they can inspect, run locally, and extend without a hosted platform.
 
-> **Quick links:** [Organization](https://github.com/ellmos-ai) | [BACH](https://github.com/ellmos-ai/bach) | [Rinnsal](https://github.com/ellmos-ai/rinnsal) | [gardener](https://github.com/ellmos-ai/gardener)
+> **Quick links:** [Organization](https://github.com/ellmos-ai) | [BACH](https://github.com/ellmos-ai/bach) | [Rinnsal](https://github.com/ellmos-ai/rinnsal) | [gardener](https://github.com/ellmos-ai/gardener) | [llms.txt](llms.txt)
+
+## Start Here
+
+| If you are looking for... | Start with | Why |
+|---|---|---|
+| A full personal LLM operating system with GUI, skills, scheduler, bridges, and multi-agent workflows | [BACH](https://github.com/ellmos-ai/bach) | Largest ellmos system and the main integration point |
+| A lightweight Python infrastructure layer for memory, tasks, connectors, and chains | [Rinnsal](https://github.com/ellmos-ai/rinnsal) | Small, local-first, dependency-light foundation |
+| A minimal LLM-native SQLite experiment | [gardener](https://github.com/ellmos-ai/gardener) | One-table operating substrate for simple agents |
+| Shared memory, model routing, chains, or parallel agent patterns | [USMC](https://github.com/ellmos-ai/usmc), [clutch](https://github.com/ellmos-ai/clutch), [MarbleRun](https://github.com/ellmos-ai/MarbleRun), [swarm-ai](https://github.com/ellmos-ai/swarm-ai) | Standalone modules that can be combined with any OS tier |
+| MCP servers for Claude Code, Cursor, or other AI IDEs | [CodeCommander](https://github.com/ellmos-ai/ellmos-codecommander-mcp), [FileCommander](https://github.com/ellmos-ai/ellmos-filecommander-mcp), [n8n Manager](https://github.com/ellmos-ai/n8n-manager-mcp) | Tool servers for code, files, workflows, and local control planes |
 
 ---
 
@@ -137,6 +147,8 @@ ellmos provides [Model Context Protocol](https://modelcontextprotocol.io/) serve
 | **[Clatcher](https://github.com/ellmos-ai/ellmos-clatcher-mcp)** | -- | File repair, format conversion, duplicate detection, batch operations | `npm i -g ellmos-clatcher-mcp` |
 | **[n8n Manager](https://github.com/ellmos-ai/n8n-manager-mcp)** | 18 | Create, update, back up, and manage n8n workflows | `npm i -g n8n-manager-mcp` |
 | **[ControlCenter](https://github.com/ellmos-ai/ellmos-controlcenter-mcp)** | -- | Alpha control plane for local MCP servers, Claude profiles, policy audits | `npm i -g ellmos-controlcenter-mcp` |
+| **[Homebase](https://github.com/ellmos-ai/ellmos-homebase-mcp)** | -- | Alpha MCP server for local LLM memory, knowledge, state, routing, testing, and orchestration | See repo README |
+| **[ServerCommander](https://github.com/ellmos-ai/ellmos-servercommander-mcp)** | -- | Alpha MCP server for deploy dry-runs, mail status, log analysis, and server health checks | See repo README |
 
 ---
 
@@ -159,6 +171,20 @@ ellmos provides [Model Context Protocol](https://modelcontextprotocol.io/) serve
 4. **Add MCP servers** for IDE integration: `npm i -g ellmos-codecommander-mcp ellmos-filecommander-mcp`
 
 All projects: **Python 3.10+** | **SQLite** | **MIT License** | **Zero or minimal dependencies**
+
+---
+
+## Search and Disambiguation
+
+ellmos is the `ellmos-ai` local-first LLM operating-system family. It is not Eclipse LMOS, AllenAI OLMo, ELMo embeddings, Elmo Software, or a hosted agent platform. Useful search phrases include:
+
+- `ellmos-ai ellmos local-first LLM operating system`
+- `ellmos BACH Rinnsal gardener SQLite agent OS`
+- `ellmos MCP CodeCommander FileCommander n8n Manager`
+- `local-first LLM OS SQLite memory skills MCP`
+- `Claude Code MCP local filesystem code analysis ellmos`
+
+For automated indexing and AI assistants, see [`llms.txt`](llms.txt).
 
 ---
 

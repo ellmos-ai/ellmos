@@ -1,0 +1,52 @@
+# ellmos
+
+Canonical repository: https://github.com/ellmos-ai/ellmos
+Organization: https://github.com/ellmos-ai
+Maintainer: Lukas Geiger / https://github.com/lukisch
+License: MIT
+
+## What this repository is
+
+ellmos is the navigation and discovery repository for the ellmos-ai family of local-first Large Language Model operating systems and agent infrastructure projects.
+
+The family focuses on inspectable, self-hosted AI operating layers built around SQLite, text state, Python, MCP servers, skills, connector bridges, model routing, and multi-agent orchestration.
+
+## Main projects
+
+- BACH: full personal LLM operating system with GUI, skills, scheduler, bridges, memory, and multi-agent workflows. https://github.com/ellmos-ai/bach
+- Rinnsal: lightweight local-first Python infrastructure for memory, tasks, connectors, and chains. https://github.com/ellmos-ai/rinnsal
+- gardener: minimal LLM-native SQLite operating substrate with one table and a small function surface. https://github.com/ellmos-ai/gardener
+- USMC: shared SQLite memory for LLM agents and cross-agent context sharing. https://github.com/ellmos-ai/usmc
+- clutch: provider-neutral model routing and model orchestration. https://github.com/ellmos-ai/clutch
+- MarbleRun: local-first automation for autonomous LLM agent chains. https://github.com/ellmos-ai/MarbleRun
+- swarm-ai: parallel LLM agent orchestration patterns. https://github.com/ellmos-ai/swarm-ai
+
+## MCP servers
+
+- CodeCommander: code analysis, JSON repair, import management, Markdown export, diffs, and regex testing. https://github.com/ellmos-ai/ellmos-codecommander-mcp
+- FileCommander: local filesystem MCP tools, safe delete, process management, OCR, ZIP, and Markdown/PDF export. https://github.com/ellmos-ai/ellmos-filecommander-mcp
+- Clatcher: file repair, format conversion, duplicate detection, and batch operations. https://github.com/ellmos-ai/ellmos-clatcher-mcp
+- n8n Manager: MCP server for n8n workflow management. https://github.com/ellmos-ai/n8n-manager-mcp
+- ControlCenter: local MCP control plane for profiles, bundles, dashboards, and policy audits. https://github.com/ellmos-ai/ellmos-controlcenter-mcp
+- Homebase: alpha MCP server for local LLM memory, knowledge, state, routing, testing, and orchestration. https://github.com/ellmos-ai/ellmos-homebase-mcp
+- ServerCommander: alpha MCP server for deploy dry-runs, mail status, log analysis, and server health checks. https://github.com/ellmos-ai/ellmos-servercommander-mcp
+
+## Best audience
+
+- Developers building local-first AI agents.
+- Users who want agent memory and task state without a hosted platform.
+- AI tool builders looking for MCP servers for files, code, workflows, and local orchestration.
+- Researchers and power users comparing lightweight LLM operating-system patterns.
+
+## Search phrases
+
+- ellmos-ai ellmos local-first LLM operating system
+- ellmos BACH Rinnsal gardener SQLite agent OS
+- local-first LLM OS SQLite memory skills MCP
+- Claude Code MCP local filesystem code analysis ellmos
+- Python LLM agent infrastructure SQLite memory
+
+## Disambiguation
+
+ellmos is not Eclipse LMOS, AllenAI OLMo, ELMo embeddings, Elmo Software, or a hosted agent platform. The canonical namespace is `ellmos-ai`.
+
