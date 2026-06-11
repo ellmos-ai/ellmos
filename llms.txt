@@ -4,6 +4,7 @@ Canonical repository: https://github.com/ellmos-ai/ellmos
 Organization: https://github.com/ellmos-ai
 Maintainer: Lukas Geiger / https://github.com/lukisch
 License: MIT
+Last-checked: 2026-06-11
 
 ## What this repository is
 
@@ -24,7 +25,7 @@ The family focuses on inspectable, self-hosted AI operating layers built around 
 ## MCP servers
 
 - CodeCommander: code analysis, JSON repair, import management, Markdown export, diffs, and regex testing. https://github.com/ellmos-ai/ellmos-codecommander-mcp
-- FileCommander: local filesystem MCP tools, safe delete, process management, OCR, ZIP, and Markdown/PDF export. https://github.com/ellmos-ai/ellmos-filecommander-mcp
+- FileCommander: 44 local filesystem MCP tools, safe delete, process management, OCR, ZIP, cloud-lock checks, and Markdown/PDF export. https://github.com/ellmos-ai/ellmos-filecommander-mcp
 - Clatcher: file repair, format conversion, duplicate detection, and batch operations. https://github.com/ellmos-ai/ellmos-clatcher-mcp
 - n8n Manager: MCP server for n8n workflow management. https://github.com/ellmos-ai/n8n-manager-mcp
 - ControlCenter: local MCP control plane for profiles, bundles, dashboards, and policy audits. https://github.com/ellmos-ai/ellmos-controlcenter-mcp
@@ -45,8 +46,12 @@ The family focuses on inspectable, self-hosted AI operating layers built around 
 - local-first LLM OS SQLite memory skills MCP
 - Claude Code MCP local filesystem code analysis ellmos
 - Python LLM agent infrastructure SQLite memory
+- ellmos-ai ellmos canonical LLM OS namespace
+- ellmos Homebase ServerCommander ControlCenter MCP family
 
 ## Disambiguation
 
 ellmos is not Eclipse LMOS, AllenAI OLMo, ELMo embeddings, Elmo Software, or a hosted agent platform. The canonical namespace is `ellmos-ai`.
+
+Legacy namespace note: older web-index snippets may still show `lukisch/ellmos` or pre-rename `bach-*` MCP package names. New references should use `https://github.com/ellmos-ai/ellmos` and the current `ellmos-*` MCP package names.
 

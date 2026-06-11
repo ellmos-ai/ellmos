@@ -23,7 +23,7 @@
 | A lightweight Python infrastructure layer for memory, tasks, connectors, and chains | [Rinnsal](https://github.com/ellmos-ai/rinnsal) | Small, local-first, dependency-light foundation |
 | A minimal LLM-native SQLite experiment | [gardener](https://github.com/ellmos-ai/gardener) | One-table operating substrate for simple agents |
 | Shared memory, model routing, chains, or parallel agent patterns | [USMC](https://github.com/ellmos-ai/usmc), [clutch](https://github.com/ellmos-ai/clutch), [MarbleRun](https://github.com/ellmos-ai/MarbleRun), [swarm-ai](https://github.com/ellmos-ai/swarm-ai) | Standalone modules that can be combined with any OS tier |
-| MCP servers for Claude Code, Cursor, or other AI IDEs | [CodeCommander](https://github.com/ellmos-ai/ellmos-codecommander-mcp), [FileCommander](https://github.com/ellmos-ai/ellmos-filecommander-mcp), [n8n Manager](https://github.com/ellmos-ai/n8n-manager-mcp) | Tool servers for code, files, workflows, and local control planes |
+| MCP servers for Claude Code, Cursor, or other AI IDEs | [CodeCommander](https://github.com/ellmos-ai/ellmos-codecommander-mcp), [FileCommander](https://github.com/ellmos-ai/ellmos-filecommander-mcp), [n8n Manager](https://github.com/ellmos-ai/n8n-manager-mcp), [ControlCenter](https://github.com/ellmos-ai/ellmos-controlcenter-mcp), [Homebase](https://github.com/ellmos-ai/ellmos-homebase-mcp), [ServerCommander](https://github.com/ellmos-ai/ellmos-servercommander-mcp) | Tool servers for code, files, workflows, local state, and local control planes |
 
 ---
 
@@ -143,7 +143,7 @@ ellmos provides [Model Context Protocol](https://modelcontextprotocol.io/) serve
 | Server | Tools | Description | Install |
 |--------|-------|-------------|---------|
 | **[CodeCommander](https://github.com/ellmos-ai/ellmos-codecommander-mcp)** | 17 | Code analysis, refactoring, import management, JSON/encoding repair | `npm i -g ellmos-codecommander-mcp` |
-| **[FileCommander](https://github.com/ellmos-ai/ellmos-filecommander-mcp)** | 43 | File management, batch operations, process control, async search | `npm i -g ellmos-filecommander-mcp` |
+| **[FileCommander](https://github.com/ellmos-ai/ellmos-filecommander-mcp)** | 44 | File management, batch operations, process control, async search, cloud-lock checks | `npm i -g ellmos-filecommander-mcp` |
 | **[Clatcher](https://github.com/ellmos-ai/ellmos-clatcher-mcp)** | -- | File repair, format conversion, duplicate detection, batch operations | `npm i -g ellmos-clatcher-mcp` |
 | **[n8n Manager](https://github.com/ellmos-ai/n8n-manager-mcp)** | 18 | Create, update, back up, and manage n8n workflows | `npm i -g n8n-manager-mcp` |
 | **[ControlCenter](https://github.com/ellmos-ai/ellmos-controlcenter-mcp)** | -- | Alpha control plane for local MCP servers, Claude profiles, policy audits | `npm i -g ellmos-controlcenter-mcp` |
@@ -183,6 +183,9 @@ ellmos is the `ellmos-ai` local-first LLM operating-system family. It is not Ecl
 - `ellmos MCP CodeCommander FileCommander n8n Manager`
 - `local-first LLM OS SQLite memory skills MCP`
 - `Claude Code MCP local filesystem code analysis ellmos`
+- `ellmos-ai ellmos canonical LLM OS namespace`
+
+The canonical GitHub namespace is `ellmos-ai`. Older search-index snippets may still show `lukisch/ellmos` or legacy `bach-*` package names; use the `ellmos-ai/*` repositories and current `ellmos-*` MCP package names for new installs.
 
 For automated indexing and AI assistants, see [`llms.txt`](llms.txt).
 
