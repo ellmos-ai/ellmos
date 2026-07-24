@@ -134,6 +134,13 @@ These modules integrate into any ellmos OS -- or work standalone:
 | **MarbleRun** | Chain orchestration | Autonomous multi-round agent loops with context handoff | [ellmos-ai/MarbleRun](https://github.com/ellmos-ai/MarbleRun) |
 | **swarm-ai** | Parallel LLM coordination | 5 patterns: Epstein, Hierarchy, Stigmergy, Consensus, Specialist | [ellmos-ai/swarm-ai](https://github.com/ellmos-ai/swarm-ai) |
 
+> **Note on gardener:** gardener is listed above as a minimal OS tier because that is how it
+> started and how it still runs standalone. In the current organization layout it also forms the
+> **.MEMORY pillar** together with [usmc](https://github.com/ellmos-ai/usmc) (curated session memory)
+> and [taskplan](https://github.com/ellmos-ai/taskplan) (task state) — usmc is the curated façade,
+> gardener the organic cross-source index. See the
+> [organization profile](https://github.com/ellmos-ai) for that view.
+
 ---
 
 ## MCP Servers
@@ -142,13 +149,15 @@ ellmos provides [Model Context Protocol](https://modelcontextprotocol.io/) serve
 
 | Server | Tools | Description | Install |
 |--------|-------|-------------|---------|
-| **[CodeCommander](https://github.com/ellmos-ai/ellmos-codecommander-mcp)** | 17 | Code analysis, refactoring, import management, JSON/encoding repair | `npm i -g ellmos-codecommander-mcp` |
-| **[FileCommander](https://github.com/ellmos-ai/ellmos-filecommander-mcp)** | 44 | File management, batch operations, process control, async search, cloud-lock checks | `npm i -g ellmos-filecommander-mcp` |
-| **[Clatcher](https://github.com/ellmos-ai/ellmos-clatcher-mcp)** | -- | File repair, format conversion, duplicate detection, batch operations | `npm i -g ellmos-clatcher-mcp` |
+| **[CodeCommander](https://github.com/ellmos-ai/ellmos-codecommander-mcp)** | 18 | Code analysis, refactoring, import management, JSON/encoding repair | `npm i -g ellmos-codecommander-mcp` |
+| **[FileCommander](https://github.com/ellmos-ai/ellmos-filecommander-mcp)** | 45 | File management, batch operations, process control, async search, cloud-lock checks | `npm i -g ellmos-filecommander-mcp` |
+| **[Clatcher](https://github.com/ellmos-ai/ellmos-clatcher-mcp)** | 12 | File repair, format conversion, duplicate detection, batch operations | `npm i -g ellmos-clatcher-mcp` |
 | **[n8n Manager](https://github.com/ellmos-ai/n8n-manager-mcp)** | 18 | Create, update, back up, and manage n8n workflows | `npm i -g n8n-manager-mcp` |
-| **[ControlCenter](https://github.com/ellmos-ai/ellmos-controlcenter-mcp)** | -- | Alpha control plane for local MCP servers, Claude profiles, policy audits | `npm i -g ellmos-controlcenter-mcp` |
-| **[Homebase](https://github.com/ellmos-ai/ellmos-homebase-mcp)** | -- | Alpha MCP server for local LLM memory, knowledge, state, routing, testing, and orchestration | See repo README |
-| **[ServerCommander](https://github.com/ellmos-ai/ellmos-servercommander-mcp)** | -- | Alpha MCP server for deploy dry-runs, mail status, log analysis, and server health checks | See repo README |
+| **[ControlCenter](https://github.com/ellmos-ai/ellmos-controlcenter-mcp)** | 20 | Alpha control plane for local MCP servers, Claude profiles, policy audits | `npm i -g ellmos-controlcenter-mcp` |
+| **[Homebase](https://github.com/ellmos-ai/ellmos-homebase-mcp)** | 45 | Alpha MCP server for local LLM memory, knowledge, state, routing, testing, and orchestration | See repo README |
+| **[ServerCommander](https://github.com/ellmos-ai/ellmos-servercommander-mcp)** | 8 | Alpha MCP server for deploy dry-runs, mail status, log analysis, and server health checks | See repo README |
+| **[Blender-Use](https://github.com/ellmos-ai/ellmos-blender-use-mcp)** | 3 | Headless Blender asset QA: background render, FBX re-import verification, script execution | `npm i -g ellmos-blender-use-mcp` |
+| **[open-compute](https://github.com/ellmos-ai/open-compute-mcp)** | 10 | Computer-use over MCP: screen capture, semantic UI targeting via Windows UIA, canonical actions | `npm i -g open-compute-mcp` |
 
 ---
 
@@ -160,6 +169,21 @@ ellmos provides [Model Context Protocol](https://modelcontextprotocol.io/) serve
 | **n8n Workflow Manager** | Standalone GUI for n8n workflow creation | [ellmos-ai/n8n-workflow-manager](https://github.com/ellmos-ai/n8n-workflow-manager) |
 | **ellmos-stack** | Self-hosted AI stack (Docker, Ollama, n8n, memory, knowledge base) | [ellmos-ai/ellmos-stack](https://github.com/ellmos-ai/ellmos-stack) |
 | **ellmos-tests** | Cross-OS test suite and benchmark reports | [ellmos-ai/ellmos-tests](https://github.com/ellmos-ai/ellmos-tests) |
+| **stacks** | Catalog and shared manifest schema for every stack in the family | [ellmos-ai/stacks](https://github.com/ellmos-ai/stacks) |
+| **agent-ops-stack** | Manifest-driven composition of the local agent-ops ecosystem | [ellmos-ai/agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack) |
+| **connectors** | Portable messaging connectors: Telegram, Discord, Signal, WhatsApp, Home Assistant, Webhook | [ellmos-ai/connectors](https://github.com/ellmos-ai/connectors) |
+| **open-compute** | Model-agnostic computer-use core for Claude, OpenAI CUA and mock backends | [ellmos-ai/open-compute](https://github.com/ellmos-ai/open-compute) |
+| **web-scraper** | Standalone web scraper with SSRF guard, extracted from BACH | [ellmos-ai/web-scraper](https://github.com/ellmos-ai/web-scraper) |
+| **taskplan** | Deterministic task selection so the backlog cannot hide | [ellmos-ai/taskplan](https://github.com/ellmos-ai/taskplan) |
+| **anonymizer** | Local-first document pseudonymization with fail-closed NER | [ellmos-ai/anonymizer](https://github.com/ellmos-ai/anonymizer) |
+| **report-forge** | Domain-neutral core for anonymizable report pipelines | [ellmos-ai/report-forge](https://github.com/ellmos-ai/report-forge) |
+| **project-docs-template** | Agent-ready project documentation template (START/STATE/TODO/DONE) | [ellmos-ai/project-docs-template](https://github.com/ellmos-ai/project-docs-template) |
+| **clirec** | Human-readable GUI demonstration recordings for CLI and agent workflows | [ellmos-ai/clirec](https://github.com/ellmos-ai/clirec) |
+| **ai-media-editor** | Local AI editing for video, audio and podcasts with local transcription | [ellmos-ai/ai-media-editor](https://github.com/ellmos-ai/ai-media-editor) |
+| **law-checker** | Source-grounded first-look legal assessments for German law | [ellmos-ai/law-checker](https://github.com/ellmos-ai/law-checker) |
+| **steuer-assistent** | Offline-first worksheet for German employee income-related expenses | [ellmos-ai/steuer-assistent](https://github.com/ellmos-ai/steuer-assistent) |
+| **worksheet-generator** | ICF-aware worksheets for pedagogical and therapeutic use | [ellmos-ai/worksheet-generator](https://github.com/ellmos-ai/worksheet-generator) |
+| **build-your-users-mind** | Per-user theory of mind: a decision avatar built from interaction logs | [ellmos-ai/build-your-users-mind](https://github.com/ellmos-ai/build-your-users-mind) |
 
 ---
 

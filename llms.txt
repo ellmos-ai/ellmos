@@ -4,7 +4,7 @@ Canonical repository: https://github.com/ellmos-ai/ellmos
 Organization: https://github.com/ellmos-ai
 Maintainer: Lukas Geiger / https://github.com/lukisch
 License: MIT
-Last-checked: 2026-06-11
+Last-checked: 2026-07-24
 
 ## What this repository is
 
@@ -21,16 +21,43 @@ The family focuses on inspectable, self-hosted AI operating layers built around 
 - clutch: provider-neutral model routing and model orchestration. https://github.com/ellmos-ai/clutch
 - MarbleRun: local-first automation for autonomous LLM agent chains. https://github.com/ellmos-ai/MarbleRun
 - swarm-ai: parallel LLM agent orchestration patterns. https://github.com/ellmos-ai/swarm-ai
+- taskplan: deterministic task selection for LLM agents so the backlog cannot hide. https://github.com/ellmos-ai/taskplan
+- connectors: portable messaging connectors for AI agents (Telegram, Discord, Signal, WhatsApp, Home Assistant, Webhook). https://github.com/ellmos-ai/connectors
+- open-compute: model-agnostic computer-use core for Claude, OpenAI CUA and mock backends. https://github.com/ellmos-ai/open-compute
+- web-scraper: standalone web scraper with SSRF guard, extracted from BACH. https://github.com/ellmos-ai/web-scraper
+- anonymizer: local-first document pseudonymization with fail-closed NER and authenticated key encryption. https://github.com/ellmos-ai/anonymizer
+- report-forge: domain-neutral core for anonymizable report pipelines. https://github.com/ellmos-ai/report-forge
+- build-your-users-mind: per-user theory of mind, a decision avatar built from interaction logs. https://github.com/ellmos-ai/build-your-users-mind
+- skills: portable SKILL.md library for Claude Code and compatible agents. https://github.com/ellmos-ai/skills
+- ellmos-tests: cross-OS evaluation framework and benchmark reports. https://github.com/ellmos-ai/ellmos-tests
+- project-docs-template: agent-ready project documentation template (START/STATE/TODO/DONE). https://github.com/ellmos-ai/project-docs-template
+- clirec: human-readable GUI demonstration recordings for CLI and agent workflows. https://github.com/ellmos-ai/clirec
+
+## Stacks
+
+- stacks: catalog and shared manifest schema for every stack in the ellmos-ai family. https://github.com/ellmos-ai/stacks
+- ellmos-stack: self-hosted local-first AI research stack with Ollama, n8n and Docker Compose. https://github.com/ellmos-ai/ellmos-stack
+- agent-ops-stack: manifest-driven composition of the local agent-ops ecosystem. https://github.com/ellmos-ai/agent-ops-stack
+- n8n-workflow-manager: local-first n8n workflow manager with visual graph viewer. https://github.com/ellmos-ai/n8n-workflow-manager
+
+## Domain tools and media
+
+- law-checker: source-grounded first-look legal assessments for German law. https://github.com/ellmos-ai/law-checker
+- steuer-assistent: offline-first worksheet for German employee income-related expenses. https://github.com/ellmos-ai/steuer-assistent
+- worksheet-generator: ICF-aware worksheets for pedagogical and therapeutic use. https://github.com/ellmos-ai/worksheet-generator
+- ai-media-editor: local AI editing for video, audio and podcasts with local transcription. https://github.com/ellmos-ai/ai-media-editor
 
 ## MCP servers
 
 - CodeCommander: code analysis, JSON repair, import management, Markdown export, diffs, and regex testing. https://github.com/ellmos-ai/ellmos-codecommander-mcp
-- FileCommander: 44 local filesystem MCP tools, safe delete, process management, OCR, ZIP, cloud-lock checks, and Markdown/PDF export. https://github.com/ellmos-ai/ellmos-filecommander-mcp
+- FileCommander: 45 local filesystem MCP tools, safe delete, process management, OCR, ZIP, cloud-lock checks, and Markdown/PDF export. https://github.com/ellmos-ai/ellmos-filecommander-mcp
 - Clatcher: file repair, format conversion, duplicate detection, and batch operations. https://github.com/ellmos-ai/ellmos-clatcher-mcp
 - n8n Manager: MCP server for n8n workflow management. https://github.com/ellmos-ai/n8n-manager-mcp
 - ControlCenter: local MCP control plane for profiles, bundles, dashboards, and policy audits. https://github.com/ellmos-ai/ellmos-controlcenter-mcp
 - Homebase: alpha MCP server for local LLM memory, knowledge, state, routing, testing, and orchestration. https://github.com/ellmos-ai/ellmos-homebase-mcp
 - ServerCommander: alpha MCP server for deploy dry-runs, mail status, log analysis, and server health checks. https://github.com/ellmos-ai/ellmos-servercommander-mcp
+- Blender-Use: headless Blender asset QA with background render and FBX re-import verification. https://github.com/ellmos-ai/ellmos-blender-use-mcp
+- open-compute-mcp: computer-use over MCP with screen capture, semantic UI targeting and canonical actions. https://github.com/ellmos-ai/open-compute-mcp
 
 ## Best audience
 
