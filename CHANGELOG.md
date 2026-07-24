@@ -8,8 +8,8 @@
 - Counted MCP tools against a live `tools/list` instead of carrying the old numbers forward:
   CodeCommander 17 -> 18, FileCommander 44 -> 45; filled in Clatcher (12), ControlCenter (20),
   Homebase (45) and ServerCommander (8), and added Blender-Use (3) and open-compute-mcp (10).
-- Added a note reconciling gardener's two roles: minimal OS tier standalone, .MEMORY pillar member
-  alongside usmc and taskplan in the current organization layout.
+- Documented gardener's two concurrent roles: minimal OS tier when run standalone, organic
+  cross-source index of the .MEMORY pillar when composed with usmc and taskplan.
 - Refreshed `llms.txt` with stacks, domain-tool and media sections; `Last-checked` now 2026-07-24.
 
 ## 2026-06-11

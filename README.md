@@ -134,12 +134,12 @@ These modules integrate into any ellmos OS -- or work standalone:
 | **MarbleRun** | Chain orchestration | Autonomous multi-round agent loops with context handoff | [ellmos-ai/MarbleRun](https://github.com/ellmos-ai/MarbleRun) |
 | **swarm-ai** | Parallel LLM coordination | 5 patterns: Epstein, Hierarchy, Stigmergy, Consensus, Specialist | [ellmos-ai/swarm-ai](https://github.com/ellmos-ai/swarm-ai) |
 
-> **Note on gardener:** gardener is listed above as a minimal OS tier because that is how it
-> started and how it still runs standalone. In the current organization layout it also forms the
-> **.MEMORY pillar** together with [usmc](https://github.com/ellmos-ai/usmc) (curated session memory)
-> and [taskplan](https://github.com/ellmos-ai/taskplan) (task state) — usmc is the curated façade,
-> gardener the organic cross-source index. See the
-> [organization profile](https://github.com/ellmos-ai) for that view.
+> **gardener has two roles, and both are current.** Run standalone, it is the minimal OS tier
+> described above: one table, four functions, FTS5 search. Composed into the **.MEMORY pillar**, it
+> is the organic cross-source index alongside [usmc](https://github.com/ellmos-ai/usmc) (the curated
+> façade) and [taskplan](https://github.com/ellmos-ai/taskplan) (task state). Which role applies
+> depends on how you deploy it — see the [organization profile](https://github.com/ellmos-ai) for
+> the pillar view.
 
 ---
 
