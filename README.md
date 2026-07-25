@@ -6,12 +6,19 @@
 
 *From a spring to a stream -- LLM operating systems that flow.*
 
+**English** | [Deutsch](README_de.md)
+
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?logo=sqlite)
+![LLM-Ready](https://img.shields.io/badge/LLM-Ready-blueviolet?logo=openai)
+![Local-First](https://img.shields.io/badge/Architecture-Local--First-informational)
 
 **ellmos** (XLLM-OS) is a local-first family of text-based operating systems for Large Language Models: agent memory, task state, MCP tools, skills, connector bridges, model routing, and multi-agent orchestration in small SQLite-backed projects. It is designed for people who want an AI operating layer they can inspect, run locally, and extend without a hosted platform.
+
+> [!NOTE]
+> **Machine-Readable Index**: For AI agents, LLM tool callers, and automated indexing engines, a full context directory and system breakdown is available in [`llms.txt`](llms.txt).
 
 > **Quick links:** [Organization](https://github.com/ellmos-ai) | [BACH](https://github.com/ellmos-ai/bach) | [Rinnsal](https://github.com/ellmos-ai/rinnsal) | [gardener](https://github.com/ellmos-ai/gardener) | [llms.txt](llms.txt)
 

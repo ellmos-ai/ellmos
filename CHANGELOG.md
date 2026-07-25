@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-07-25
+
+- Updated `llms.txt` Last-checked timestamp to 2026-07-25.
+- Added bilingual documentation switcher (`README.md` / `README_de.md`) and created `README_de.md`.
+- Integrated expanded Shields.io badges (LLM-Ready, Local-First, SQLite, Python 3.10+).
+- Added AI/LLM GitHub Alert callout note (`> [!NOTE]`) for machine-readable context discovery.
+
 ## 2026-07-24
 
 - Indexed 15 projects the hub did not know yet (stacks, agent-ops-stack, connectors, open-compute,
