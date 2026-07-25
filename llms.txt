@@ -16,7 +16,7 @@ The family focuses on inspectable, self-hosted AI operating layers built around 
 
 - BACH: full personal LLM operating system with GUI, skills, scheduler, bridges, memory, and multi-agent workflows. https://github.com/ellmos-ai/bach
 - Rinnsal: lightweight local-first Python infrastructure for memory, tasks, connectors, and chains. https://github.com/ellmos-ai/rinnsal
-- gardener: minimal LLM-native SQLite operating substrate with one table and a small function surface. https://github.com/ellmos-ai/gardener
+- gardener: minimal LLM-native SQLite operating substrate with one `everything` table across two database files and a four-function surface. https://github.com/ellmos-ai/gardener
 - USMC: shared SQLite memory for LLM agents and cross-agent context sharing. https://github.com/ellmos-ai/usmc
 - clutch: provider-neutral model routing and model orchestration. https://github.com/ellmos-ai/clutch
 - MarbleRun: local-first automation for autonomous LLM agent chains. https://github.com/ellmos-ai/MarbleRun
@@ -50,7 +50,7 @@ The family focuses on inspectable, self-hosted AI operating layers built around 
 ## MCP servers
 
 - CodeCommander: code analysis, JSON repair, import management, Markdown export, diffs, and regex testing. https://github.com/ellmos-ai/ellmos-codecommander-mcp
-- FileCommander: 45 local filesystem MCP tools, safe delete, process management, OCR, ZIP, cloud-lock checks, and Markdown/PDF export. https://github.com/ellmos-ai/ellmos-filecommander-mcp
+- FileCommander: 46 local filesystem MCP tools, safe delete, process management, OCR, ZIP, cloud-lock checks, and Markdown/PDF export. https://github.com/ellmos-ai/ellmos-filecommander-mcp
 - Clatcher: file repair, format conversion, duplicate detection, and batch operations. https://github.com/ellmos-ai/ellmos-clatcher-mcp
 - n8n Manager: MCP server for n8n workflow management. https://github.com/ellmos-ai/n8n-manager-mcp
 - ControlCenter: local MCP control plane for profiles, bundles, dashboards, and policy audits. https://github.com/ellmos-ai/ellmos-controlcenter-mcp

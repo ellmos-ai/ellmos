@@ -6,6 +6,21 @@
 - Added bilingual documentation switcher (`README.md` / `README_de.md`) and created `README_de.md`.
 - Integrated expanded Shields.io badges (LLM-Ready, Local-First, SQLite, Python 3.10+).
 - Added AI/LLM GitHub Alert callout note (`> [!NOTE]`) for machine-readable context discovery.
+- Corrected the BACH figures against BACH's own README instead of carrying them forward:
+  109+ -> 113+ handlers, 373+ -> 550+ tools, 932+ -> 1870+ skills, 5 -> 11 boss agents,
+  28 -> 22 experts, 145+ -> 210+ database tables, 5 -> 6 memory types; added the 71 workflow
+  templates.
+- Recounted the MCP tool numbers in the published npm packages: CodeCommander 18 -> 22,
+  FileCommander 45 -> 46. The other seven servers were confirmed unchanged. The previous
+  count came from a running MCP session whose installed packages were several versions behind
+  the release, so the numbers were measured on stale code.
+- Described gardener's two database files (`gardener.db`, `user.db`) that a single query
+  searches together.
+- Linked the sibling organizations the hub belongs to. All four of them already pointed at
+  `ellmos-ai`; only the way back was missing.
+- Added a German README, mirroring the organization profile, which has had one for a while.
+- Pinned line endings via `.gitattributes` so a Windows clone stops reporting a phantom
+  full-repository diff.
 
 ## 2026-07-24
 

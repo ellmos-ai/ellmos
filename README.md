@@ -51,7 +51,7 @@
 
 ### BACH -- The stream that unites everything
 
-The full LLM operating system. 109+ handlers, 373+ tools, 932+ skills, 5 boss agents with 28 experts, PySide6 desktop GUI, scheduler, bridge system, and self-extension via `bach skills create`.
+The full LLM operating system. 113+ handlers, 550+ tools, 1870+ skills, 71 workflow templates, 11 boss agents with 22 experts, PySide6 desktop GUI, scheduler, bridge system, and self-extension via `bach skills create`.
 
 ```bash
 git clone https://github.com/ellmos-ai/bach.git
@@ -75,7 +75,7 @@ cd rinnsal && pip install -r requirements.txt
 
 ### gardener -- The zen garden
 
-LLM-native OS: 1 SQLite table (`everything`), 4 functions, FTS5 full-text search. Everything is searchable. The LLM *is* the agent -- gardener just provides the soil.
+LLM-native OS: one `everything` table, 4 functions, FTS5 full-text search -- split across two databases (`gardener.db` for system knowledge, `user.db` for your data) that one query searches together. Everything is searchable. The LLM *is* the agent -- gardener just provides the soil.
 
 ```bash
 git clone https://github.com/ellmos-ai/gardener.git
@@ -94,9 +94,9 @@ cd gardener && pip install -r requirements.txt
 |                                                 |
 |   BACH (full)   Rinnsal (light)  gardener (min) |
 |   +---------+   +------------+   +----------+  |
-|   | 932     |   | Zero deps  |   | 1 table  |  |
+|   | 1870+   |   | Zero deps  |   | 1 table  |  |
 |   | skills  |   | Connectors |   | 4 funcs  |  |
-|   | 5 boss  |   | Chains     |   | FTS5     |  |
+|   | 11 boss |   | Chains     |   | FTS5     |  |
 |   | agents  |   | Events     |   | = search |  |
 |   +----+----+   +-----+------+   +-----+----+  |
 |        +---------------+----------------+       |
@@ -117,11 +117,11 @@ cd gardener && pip install -r requirements.txt
 | | **BACH** | **Rinnsal** | **gardener** |
 |---|---|---|---|
 | **Philosophy** | Maximalist: everything integrated | Lightweight: zero dependencies | Minimalist: 1 table, 4 functions |
-| **Database** | SQLite (145+ tables) | SQLite (structured) | SQLite (1 table `everything` + FTS5) |
-| **Memory** | 5-type cognitive model | Facts/Notes/Lessons/Sessions | Unified (memo/lesson/recall + decay) |
+| **Database** | SQLite (210+ tables) | SQLite (structured) | SQLite (1 table `everything` + FTS5, across 2 files) |
+| **Memory** | 6 memory types with decay, conflict detection, consolidation | Facts/Notes/Lessons/Sessions | Unified (memo/lesson/recall + decay) |
 | **Tasks** | Full GTD (priority, deadline, tags) | Priority + Status + Agent assignment | type='task' in everything |
-| **Tools** | 373+ specialized tools | CLI commands | 6 bridge+skin tools (extensible) |
-| **Skills/Agents** | 932 skills, 5 boss agents, 28 experts | None | None (the LLM is the agent) |
+| **Tools** | 550+ specialized tools | CLI commands | 6 bridge+skin tools (extensible) |
+| **Skills/Agents** | 1870+ skills, 11 boss agents, 22 experts | None | None (the LLM is the agent) |
 | **Connectors** | Telegram, Email, WhatsApp | Telegram, Discord, Home Assistant | Planned (v0.2+) |
 | **GUI** | PySide6 Desktop + Web | CLI only | CLI only |
 | **Self-Extension** | `bach skills create` | No | No |
@@ -156,8 +156,8 @@ ellmos provides [Model Context Protocol](https://modelcontextprotocol.io/) serve
 
 | Server | Tools | Description | Install |
 |--------|-------|-------------|---------|
-| **[CodeCommander](https://github.com/ellmos-ai/ellmos-codecommander-mcp)** | 18 | Code analysis, refactoring, import management, JSON/encoding repair | `npm i -g ellmos-codecommander-mcp` |
-| **[FileCommander](https://github.com/ellmos-ai/ellmos-filecommander-mcp)** | 45 | File management, batch operations, process control, async search, cloud-lock checks | `npm i -g ellmos-filecommander-mcp` |
+| **[CodeCommander](https://github.com/ellmos-ai/ellmos-codecommander-mcp)** | 22 | Code analysis, refactoring, import management, JSON/encoding repair | `npm i -g ellmos-codecommander-mcp` |
+| **[FileCommander](https://github.com/ellmos-ai/ellmos-filecommander-mcp)** | 46 | File management, batch operations, process control, async search, cloud-lock checks | `npm i -g ellmos-filecommander-mcp` |
 | **[Clatcher](https://github.com/ellmos-ai/ellmos-clatcher-mcp)** | 12 | File repair, format conversion, duplicate detection, batch operations | `npm i -g ellmos-clatcher-mcp` |
 | **[n8n Manager](https://github.com/ellmos-ai/n8n-manager-mcp)** | 18 | Create, update, back up, and manage n8n workflows | `npm i -g n8n-manager-mcp` |
 | **[ControlCenter](https://github.com/ellmos-ai/ellmos-controlcenter-mcp)** | 20 | Alpha control plane for local MCP servers, Claude profiles, policy audits | `npm i -g ellmos-controlcenter-mcp` |
