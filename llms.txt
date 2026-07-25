@@ -59,6 +59,15 @@ The family focuses on inspectable, self-hosted AI operating layers built around 
 - Blender-Use: headless Blender asset QA with background render and FBX re-import verification. https://github.com/ellmos-ai/ellmos-blender-use-mcp
 - open-compute-mcp: computer-use over MCP with screen capture, semantic UI targeting and canonical actions. https://github.com/ellmos-ai/open-compute-mcp
 
+## Related organizations
+
+ellmos-ai is the AI-infrastructure organization of a wider local-first family. Related namespaces:
+
+- open-bricks: umbrella profile covering desktop software, AI/MCP tools, open research, bioinformatics and civic tech. https://github.com/open-bricks
+- dev-bricks: developer and multi-agent tooling; lock-master, ticket-master and sync-master are the coordination layer composed by ellmos-ai/agent-ops-stack. https://github.com/dev-bricks
+- file-bricks: local-first desktop file, prompt and knowledge tools; knowledgedigest provides the document search layer in ellmos-ai/ellmos-stack. https://github.com/file-bricks
+- doc-bricks: document, mail, literature and note tools; llm-note was extracted from BACH's notebook patterns. https://github.com/doc-bricks
+
 ## Best audience
 
 - Developers building local-first AI agents.

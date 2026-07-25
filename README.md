@@ -194,6 +194,19 @@ ellmos provides [Model Context Protocol](https://modelcontextprotocol.io/) serve
 
 ---
 
+## Related Organizations
+
+`ellmos-ai` is the AI-infrastructure part of a wider family of local-first projects. All four organizations below already link here; this is the way back.
+
+| Organization | What lives there | Why it matters here |
+|---|---|---|
+| **[open-bricks](https://github.com/open-bricks)** | Umbrella profile for the whole family | Start here if you want the desktop, document, research and civic-tech projects alongside the AI infrastructure |
+| **[dev-bricks](https://github.com/dev-bricks)** | Developer and multi-agent tooling: [lock-master](https://github.com/dev-bricks/lock-master), [ticket-master](https://github.com/dev-bricks/ticket-master), [sync-master](https://github.com/dev-bricks/sync-master) | [agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack) composes exactly these three as its coordination layer -- file locking, ticket routing and cross-machine sync -- and each of them also runs standalone |
+| **[file-bricks](https://github.com/file-bricks)** | Local-first desktop tools for files, prompts and knowledge work: [knowledgedigest](https://github.com/file-bricks/knowledgedigest), [promptboard](https://github.com/file-bricks/promptboard) | [ellmos-stack](https://github.com/ellmos-ai/ellmos-stack) uses KnowledgeDigest as its document search layer |
+| **[doc-bricks](https://github.com/doc-bricks)** | Document, mail, literature and note tools: [llm-note](https://github.com/doc-bricks/llm-note) | llm-note was extracted from BACH's notebook patterns and remains usable as a standalone agent-notes tool |
+
+---
+
 ## Getting Started
 
 1. **Pick your OS tier** using the comparison table above
