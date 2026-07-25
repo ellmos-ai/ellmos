@@ -1,5 +1,9 @@
-# Lokal geklonte Schwester-Repos und GithubBot-interne Verwaltungs-Dateien
-# (gehoeren nicht ins ellmos Meta-Repo)
+# Locally cloned sister repositories and bot-internal bookkeeping files
+# (they do not belong in the ellmos meta repository)
 /.github/
 /ellmos-ai-profile/
 COMMUNITY_MEMBERS.md
+
+# Multi-agent coordination locks and internal maintenance logs
+LOCK*.txt
+_after-care/

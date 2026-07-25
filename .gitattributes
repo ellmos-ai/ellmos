@@ -1,0 +1,13 @@
+# Normalize line endings so a Windows clone with core.autocrlf=true does not
+# report every tracked file as modified. Without this, `git status` shows a
+# phantom diff over the whole repository and real changes become invisible.
+* text=auto
+
+*.md    text eol=lf
+*.txt   text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+
+*.jpg   binary
+*.png   binary
