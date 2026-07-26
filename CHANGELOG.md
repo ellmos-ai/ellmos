@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-07-26
+
+- Performed Path A Technical Hygiene & Maintenance Check.
+- Updated `llms.txt` Last-checked timestamp to 2026-07-26.
+- Verified organization profile repository documentation, bilingual README alignment, and link consistency.
+
 ## 2026-07-25
 
 - Updated `llms.txt` Last-checked timestamp to 2026-07-25.

@@ -4,7 +4,7 @@ Canonical repository: https://github.com/ellmos-ai/ellmos
 Organization: https://github.com/ellmos-ai
 Maintainer: Lukas Geiger / https://github.com/lukisch
 License: MIT
-Last-checked: 2026-07-25
+Last-checked: 2026-07-26
 
 ## What this repository is
 
