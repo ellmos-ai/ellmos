@@ -14,6 +14,7 @@
 ![SQLite](https://img.shields.io/badge/Datenbank-SQLite-003B57?logo=sqlite)
 ![LLM-Ready](https://img.shields.io/badge/LLM-Ready-blueviolet?logo=openai)
 ![Local-First](https://img.shields.io/badge/Architektur-Local--First-informational)
+![MCP](https://img.shields.io/badge/MCP-Unterst%C3%BCtzt-8A2BE2?logo=anthropic)
 
 **ellmos** (XLLM-OS) ist eine Local-First-Familie textbasierter Betriebssysteme für Large Language Models: Agenten-Gedächtnis, Aufgabenstatus, MCP-Tools, Skills, Connector-Bridges, Modell-Routing und Multi-Agenten-Orchestrierung in schlanken, SQLite-gestützten Projekten. Entwickelt für Menschen, die eine transparente, lokal ausführbare und erweiterbare KI-Betriebsschicht ohne Cloud-Zwang bevorzugen.
 

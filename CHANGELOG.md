@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-07-29
+
+- Performed Path B Discoverability, README, SEO & Visibility Check.
+- Updated `llms.txt` Last-checked timestamp to 2026-07-29.
+- Enhanced `README.md` and `README_de.md` with explicit MCP Ecosystem badges (`MCP-Supported` / `MCP-Unterstützt`). [G 2026-07-29]
+
 ## 2026-07-27
 
 - Performed Path A Technical Hygiene & Maintenance Check.

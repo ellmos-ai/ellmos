@@ -14,6 +14,7 @@
 ![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?logo=sqlite)
 ![LLM-Ready](https://img.shields.io/badge/LLM-Ready-blueviolet?logo=openai)
 ![Local-First](https://img.shields.io/badge/Architecture-Local--First-informational)
+![MCP](https://img.shields.io/badge/MCP-Supported-8A2BE2?logo=anthropic)
 
 **ellmos** (XLLM-OS) is a local-first family of text-based operating systems for Large Language Models: agent memory, task state, MCP tools, skills, connector bridges, model routing, and multi-agent orchestration in small SQLite-backed projects. It is designed for people who want an AI operating layer they can inspect, run locally, and extend without a hosted platform.
 
