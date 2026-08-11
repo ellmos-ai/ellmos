@@ -174,7 +174,7 @@ ellmos stellt [Model-Context-Protocol](https://modelcontextprotocol.io/)-Server 
 | Projekt | Beschreibung | Repository |
 |---|---|---|
 | **skills** | Steckbare Skill-Bibliothek (Entwicklung, Forschung, Bildung, Infrastruktur) | [ellmos-ai/skills](https://github.com/ellmos-ai/skills) |
-| **n8n Workflow Manager** | Eigenständige GUI zur Erstellung von n8n-Workflows | [ellmos-ai/n8n-workflow-manager](https://github.com/ellmos-ai/n8n-workflow-manager) |
+| **n8n Workflow Manager** | Lokaler Manager für n8n-Workflows: Graph-Viewer und Editor, Versionshistorie mit Entscheidungsprotokoll, Rollback und Multi-Server-Sync (Web-UI, REST API, CLI) | [ellmos-ai/n8n-workflow-manager](https://github.com/ellmos-ai/n8n-workflow-manager) |
 | **ellmos-stack** | Selbst gehosteter KI-Stack (Docker, Ollama, n8n, Gedächtnis, Wissensbasis) | [ellmos-ai/ellmos-stack](https://github.com/ellmos-ai/ellmos-stack) |
 | **ellmos-tests** | OS-übergreifende Testsuite und Benchmark-Berichte | [ellmos-ai/ellmos-tests](https://github.com/ellmos-ai/ellmos-tests) |
 | **stacks** | Katalog und gemeinsames Manifest-Schema für jeden Stack der Familie | [ellmos-ai/stacks](https://github.com/ellmos-ai/stacks) |
