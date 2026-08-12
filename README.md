@@ -27,6 +27,9 @@
 
 ## Start Here
 
+> [!TIP]
+> **🗺️ See it instead of reading it:** the interactive [module circuit map](https://ellmos-ai.github.io) shows all functional areas of the ecosystem, how they work together, and every public module — with a [skill library](https://ellmos-ai.github.io/skills.html) and a [stack composer](https://ellmos-ai.github.io/stack-composer.html) alongside.
+
 | If you are looking for... | Start with | Why |
 |---|---|---|
 | A full personal LLM operating system with GUI, skills, scheduler, bridges, and multi-agent workflows | [BACH](https://github.com/ellmos-ai/bach) | Largest ellmos system and the main integration point |

@@ -25,6 +25,9 @@
 
 ## Hier anfangen
 
+> [!TIP]
+> **🗺️ Ansehen statt lesen:** Der interaktive [Modul-Schaltplan](https://ellmos-ai.github.io) zeigt alle Funktionsbereiche des Ökosystems, ihr Zusammenspiel und jedes öffentliche Modul — daneben eine [Skill-Bibliothek](https://ellmos-ai.github.io/skills.html) und ein [Stack-Composer](https://ellmos-ai.github.io/stack-composer.html).
+
 | Wenn Sie suchen... | Beginnen Sie mit | Warum |
 |---|---|---|
 | Ein vollständiges persönliches LLM-Betriebssystem mit GUI, Skills, Scheduler, Bridges und Multi-Agenten-Workflows | [BACH](https://github.com/ellmos-ai/bach) | Größtes ellmos-System und der zentrale Integrationspunkt |
