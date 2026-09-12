@@ -94,7 +94,7 @@ cd gardener && pip install -r requirements.txt
 
 ```
 +-------------------------------------------------+
-|              Waehle deine OS-Schicht            |
+|              Wähle deine OS-Schicht             |
 |                                                 |
 |   BACH (voll)   Rinnsal (leicht) gardener (min) |
 |   +---------+   +------------+   +----------+  |
@@ -108,7 +108,7 @@ cd gardener && pip install -r requirements.txt
 |        +---------------+---------------+        |
 |        |    Steckbare Module           |        |
 |        |                               |        |
-|        |  USMC      -- Gedaechtnis     |        |
+|        |  USMC      -- Gedächtnis      |        |
 |        |  clutch    -- Modell-Routing  |        |
 |        |  MarbleRun -- Agenten-Ketten  |        |
 |        |  swarm-ai  -- parallele LLMs  |        |

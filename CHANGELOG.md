@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-08-12
+
+- Linked interactive ecosystem architecture maps at `ellmos-ai.github.io` (`skills.html`, `stack-composer.html`) in `README.md` and `README_de.md`. [0d3a8a1]
+- Synchronized documentation parity and verified live links.
+
+## 2026-08-01
+
+- Clarified `n8n-workflow-manager` description to reflect operational capabilities and safe execution boundaries rather than creation GUI. [a1ad84a]
+
+## 2026-07-30
+
+- Generated and embedded missing banner assets in `assets/banner.png` and updated `README.md` / `README_de.md`. [ec317e7]
+
 ## 2026-07-29
 
 - Performed Path B Discoverability, README, SEO & Visibility Check.
