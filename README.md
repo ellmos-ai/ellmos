@@ -1,4 +1,4 @@
-<img src="assets/banner.svg" width="100%" alt="Ellmos banner: a spring of light widening into a flowing network stream, from gardener through Rinnsal to BACH">
+<img src="assets/banner.png" width="100%" alt="Ellmos banner">
 
 <p align="center">
   <img src="ellmos-logo.jpg" alt="ellmos logo" width="400">
