@@ -1,0 +1,327 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 680" width="2400" height="680">
+
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020813" />
+      <stop offset="35%" stop-color="#041222" />
+      <stop offset="70%" stop-color="#061c33" />
+      <stop offset="100%" stop-color="#020a16" />
+    </linearGradient>
+
+    <!-- Confluence Radial Ambient Glow -->
+    <radialGradient id="sphereGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.32" />
+      <stop offset="30%" stop-color="#00B4D8" stop-opacity="0.20" />
+      <stop offset="65%" stop-color="#4F46E5" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#020813" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Wordmark Ambient Glow -->
+    <radialGradient id="textAmbientGlow" cx="25%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.14" />
+      <stop offset="50%" stop-color="#4338ca" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#020813" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Spring Source Ambient Glow -->
+    <radialGradient id="springGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.45" />
+      <stop offset="25%" stop-color="#0284C7" stop-opacity="0.25" />
+      <stop offset="60%" stop-color="#6366F1" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#020813" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Stream Flow Linear Gradients -->
+    <linearGradient id="streamGrad1" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.1" />
+      <stop offset="20%" stop-color="#00F0FF" stop-opacity="0.8" />
+      <stop offset="60%" stop-color="#38BDF8" stop-opacity="0.95" />
+      <stop offset="85%" stop-color="#818CF8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="streamGrad2" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.05" />
+      <stop offset="30%" stop-color="#4F46E5" stop-opacity="0.5" />
+      <stop offset="70%" stop-color="#00F0FF" stop-opacity="0.75" />
+      <stop offset="90%" stop-color="#38BDF8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.1" />
+    </linearGradient>
+
+    <linearGradient id="streamGrad3" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.6" />
+      <stop offset="80%" stop-color="#A5B4FC" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0.15" />
+    </linearGradient>
+
+    <linearGradient id="streamRibbonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0" />
+      <stop offset="25%" stop-color="#00F0FF" stop-opacity="0.12" />
+      <stop offset="60%" stop-color="#38BDF8" stop-opacity="0.16" />
+      <stop offset="85%" stop-color="#6366F1" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#020813" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Node Glow Filter -->
+    <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur1" />
+      <feGaussianBlur stdDeviation="14" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="intenseGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="b1" />
+      <feGaussianBlur stdDeviation="22" result="b2" />
+      <feGaussianBlur stdDeviation="40" result="b3" />
+      <feMerge>
+        <feMergeNode in="b3" />
+        <feMergeNode in="b2" />
+        <feMergeNode in="b1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Glyph Gradient -->
+    <linearGradient id="glyphGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F7FA" />
+      <stop offset="40%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+
+    <linearGradient id="wordmarkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="75%" stop-color="#F0F9FF" />
+      <stop offset="100%" stop-color="#BAE6FD" />
+    </linearGradient>
+  </defs>
+
+
+  <!-- Background Base -->
+  <rect width="2400" height="680" fill="url(#bgGrad)" />
+
+  <!-- Ambient Light Volumes -->
+  <ellipse cx="1840" cy="340" rx="460" ry="320" fill="url(#sphereGlow)" />
+  <ellipse cx="480" cy="240" rx="550" ry="240" fill="url(#textAmbientGlow)" />
+  <ellipse cx="260" cy="510" rx="300" ry="180" fill="url(#springGlow)" />
+
+
+  <!-- Fluid River Substrate / Deep Ocean Currents -->
+  <g opacity="0.75">
+    <path d="M-50,560 C400,560 650,490 1000,450 C1400,410 1600,420 1840,360 C2080,300 2250,310 2450,280 L2450,680 L-50,680 Z" fill="url(#streamRibbonGrad)" />
+    <path d="M-50,590 C350,590 600,520 950,480 C1350,440 1550,460 1840,390 C2100,320 2280,330 2450,310 L2450,680 L-50,680 Z" fill="#04182B" opacity="0.4" />
+    <path d="M-50,630 C300,630 550,560 900,520 C1300,480 1500,500 1800,430 C2100,360 2280,380 2450,350 L2450,680 L-50,680 Z" fill="#020E1C" opacity="0.5" />
+  </g>
+
+  <!-- Flowing Braided Currents -->
+  <g id="currents">
+    <path d="M 260 510 C 500 500, 800 450, 1050 430 C 1350 410, 1600 370, 1840 340" fill="none" stroke="url(#streamGrad1)" stroke-width="3.5" opacity="0.95" stroke-linecap="round" filter="url(#glowCyan)" />
+    <path d="M 1840 340 C 2000 320, 2180 300, 2450 280" fill="none" stroke="url(#streamGrad1)" stroke-width="3.0" opacity="0.85" stroke-linecap="round" filter="url(#glowCyan)" />
+    <path d="M 260 510 C 450 460, 750 390, 1050 370 C 1350 350, 1580 240, 1840 210 C 2050 190, 2220 230, 2450 240" fill="none" stroke="url(#streamGrad2)" stroke-width="2.5" opacity="0.8" stroke-linecap="round" filter="url(#softGlow)" />
+    <path d="M 260 510 C 520 540, 820 520, 1100 480 C 1400 450, 1650 490, 1840 470 C 2050 450, 2250 400, 2450 380" fill="none" stroke="url(#streamGrad3)" stroke-width="2.5" opacity="0.8" stroke-linecap="round" filter="url(#softGlow)" />
+    <path d="M 210 520 C 480 510, 780 430, 1020 410 C 1300 390, 1550 330, 1800 310 C 2020 290, 2220 270, 2450 260" fill="none" stroke="#38BDF8" stroke-width="1.2" opacity="0.5" stroke-linecap="round" stroke-dasharray="12 8" />
+    <path d="M 280 500 C 540 480, 840 410, 1120 390 C 1380 370, 1620 310, 1840 280 C 2060 250, 2260 250, 2450 230" fill="none" stroke="#818CF8" stroke-width="1.2" opacity="0.45" stroke-linecap="round" stroke-dasharray="6 10" />
+    <path d="M 240 525 C 500 530, 780 490, 1060 460 C 1360 430, 1620 420, 1840 370 C 2040 330, 2240 320, 2450 310" fill="none" stroke="#00F0FF" stroke-width="1.5" opacity="0.6" stroke-linecap="round" stroke-dasharray="18 12" />
+    <path d="M 250 515 C 530 550, 830 540, 1120 510 C 1420 480, 1680 460, 1860 410 C 2080 370, 2280 350, 2450 340" fill="none" stroke="#38BDF8" stroke-width="1.0" opacity="0.4" stroke-linecap="round" stroke-dasharray="4 8" />
+    <path d="M 300 505 C 580 470, 880 400, 1180 380 C 1480 360, 1660 270, 1880 240 C 2100 220, 2280 210, 2450 200" fill="none" stroke="#A5B4FC" stroke-width="1.0" opacity="0.35" stroke-linecap="round" stroke-dasharray="14 14" />
+    <path d="M 600 480 C 720 430, 850 420, 950 440" fill="none" stroke="#00F0FF" stroke-width="1.2" opacity="0.55" stroke-linecap="round" stroke-dasharray="5 5" />
+    <path d="M 780 440 C 900 480, 1020 470, 1150 450" fill="none" stroke="#38BDF8" stroke-width="1.2" opacity="0.5" stroke-linecap="round" />
+    <path d="M 1200 420 C 1320 380, 1450 360, 1550 340" fill="none" stroke="#818CF8" stroke-width="1.2" opacity="0.45" stroke-linecap="round" stroke-dasharray="8 6" />
+    <path d="M 1350 440 C 1480 460, 1580 440, 1680 390" fill="none" stroke="#00F0FF" stroke-width="1.2" opacity="0.5" stroke-linecap="round" />
+  </g>
+
+
+  <!-- TIER 1: The Spring (gardener - one-table seed) -->
+  <g id="tier1-spring" transform="translate(260, 510)">
+    <!-- Concentric ripples -->
+    <circle r="68" fill="none" stroke="#00F0FF" stroke-width="1" opacity="0.12" stroke-dasharray="6 8" />
+    <circle r="46" fill="none" stroke="#38BDF8" stroke-width="1.2" opacity="0.25" stroke-dasharray="4 6" />
+    <circle r="28" fill="none" stroke="#00F0FF" stroke-width="1.5" opacity="0.45" />
+    
+    <!-- Spring satellite nodes -->
+    <line x1="-32" y1="-18" x2="0" y2="0" stroke="#38BDF8" stroke-width="1.2" opacity="0.5" />
+    <line x1="36" y1="-14" x2="0" y2="0" stroke="#38BDF8" stroke-width="1.2" opacity="0.5" />
+    <line x1="-20" y1="28" x2="0" y2="0" stroke="#38BDF8" stroke-width="1.2" opacity="0.5" />
+    <line x1="28" y1="24" x2="0" y2="0" stroke="#38BDF8" stroke-width="1.2" opacity="0.5" />
+
+    <circle cx="-32" cy="-18" r="3.5" fill="#38BDF8" opacity="0.7" />
+    <circle cx="36" cy="-14" r="4" fill="#00F0FF" opacity="0.8" />
+    <circle cx="-20" cy="28" r="3" fill="#818CF8" opacity="0.7" />
+    <circle cx="28" cy="24" r="3.5" fill="#00F0FF" opacity="0.8" />
+
+    <!-- Central Spring Seed Node -->
+    <circle r="12" fill="#0284C7" opacity="0.8" />
+    <circle r="8" fill="#00F0FF" filter="url(#glowCyan)" />
+    <circle r="4" fill="#FFFFFF" />
+
+    <!-- Prompt Chevron in Spring Nucleus -->
+    <path d="M-2,-3 L2,0 L-2,3" fill="none" stroke="#041424" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Tier Milestone Indicator -->
+    <g transform="translate(0, 52)">
+      <text text-anchor="middle" font-family="'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="700" letter-spacing="3" fill="#38BDF8" opacity="0.95">GARDENER</text>
+      <text y="14" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" letter-spacing="1.5" fill="#64748B">THE SPRING · SEED</text>
+    </g>
+  </g>
+
+
+  <!-- TIER 2: The Trickle (Rinnsal - lightweight conduit) -->
+  <g id="tier2-rinnsal" transform="translate(1020, 430)">
+    <!-- Constellation Edges -->
+    <line x1="-60" y1="-35" x2="-35" y2="20" stroke="#38BDF8" stroke-width="1.5" opacity="0.5" /> <line x1="-60" y1="-35" x2="-10" y2="-25" stroke="#38BDF8" stroke-width="1.5" opacity="0.5" /> <line x1="-35" y1="20" x2="-10" y2="-25" stroke="#38BDF8" stroke-width="1.5" opacity="0.5" /> <line x1="-35" y1="20" x2="20" y2="15" stroke="#38BDF8" stroke-width="1.5" opacity="0.5" /> <line x1="-10" y1="-25" x2="25" y2="-40" stroke="#38BDF8" stroke-width="1.5" opacity="0.5" /> <line x1="-10" y1="-25" x2="20" y2="15" stroke="#38BDF8" stroke-width="1.5" opacity="0.5" /> <line x1="25" y1="-40" x2="55" y2="-15" stroke="#38BDF8" stroke-width="1.5" opacity="0.5" /> <line x1="20" y1="15" x2="55" y2="-15" stroke="#38BDF8" stroke-width="1.5" opacity="0.5" /> <line x1="20" y1="15" x2="65" y2="30" stroke="#38BDF8" stroke-width="1.5" opacity="0.5" /> <line x1="55" y1="-15" x2="90" y2="5" stroke="#38BDF8" stroke-width="1.5" opacity="0.5" /> <line x1="65" y1="30" x2="90" y2="5" stroke="#38BDF8" stroke-width="1.5" opacity="0.5" />
+    <!-- Constellation Nodes -->
+    <circle cx="-60" cy="-35" r="8.5" fill="#38BDF8" opacity="0.2" /><circle cx="-60" cy="-35" r="4.5" fill="#38BDF8" filter="url(#softGlow)" /><circle cx="-60" cy="-35" r="1.8" fill="#FFFFFF" /> <circle cx="-35" cy="20" r="9.0" fill="#00F0FF" opacity="0.2" /><circle cx="-35" cy="20" r="5.0" fill="#00F0FF" filter="url(#softGlow)" /><circle cx="-35" cy="20" r="2.0" fill="#FFFFFF" /> <circle cx="-10" cy="-25" r="10.0" fill="#00F0FF" opacity="0.2" /><circle cx="-10" cy="-25" r="6.0" fill="#00F0FF" filter="url(#softGlow)" /><circle cx="-10" cy="-25" r="2.4000000000000004" fill="#FFFFFF" /> <circle cx="25" cy="-40" r="8.0" fill="#818CF8" opacity="0.2" /><circle cx="25" cy="-40" r="4.0" fill="#818CF8" filter="url(#softGlow)" /><circle cx="25" cy="-40" r="1.6" fill="#FFFFFF" /> <circle cx="20" cy="15" r="11.0" fill="#00F0FF" opacity="0.2" /><circle cx="20" cy="15" r="7.0" fill="#00F0FF" filter="url(#softGlow)" /><circle cx="20" cy="15" r="2.8000000000000003" fill="#FFFFFF" /> <circle cx="55" cy="-15" r="9.0" fill="#38BDF8" opacity="0.2" /><circle cx="55" cy="-15" r="5.0" fill="#38BDF8" filter="url(#softGlow)" /><circle cx="55" cy="-15" r="2.0" fill="#FFFFFF" /> <circle cx="65" cy="30" r="8.5" fill="#818CF8" opacity="0.2" /><circle cx="65" cy="30" r="4.5" fill="#818CF8" filter="url(#softGlow)" /><circle cx="65" cy="30" r="1.8" fill="#FFFFFF" /> <circle cx="90" cy="5" r="9.5" fill="#00F0FF" opacity="0.2" /><circle cx="90" cy="5" r="5.5" fill="#00F0FF" filter="url(#softGlow)" /><circle cx="90" cy="5" r="2.2" fill="#FFFFFF" />
+
+    <!-- Outer flow orbit ring -->
+    <ellipse rx="95" ry="50" fill="none" stroke="#00F0FF" stroke-width="1" opacity="0.2" stroke-dasharray="8 6" transform="rotate(-12)" />
+
+    <!-- Tier Milestone Indicator -->
+    <g transform="translate(15, 68)">
+      <text text-anchor="middle" font-family="'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="700" letter-spacing="3" fill="#38BDF8" opacity="0.95">RINNSAL</text>
+      <text y="14" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" letter-spacing="1.5" fill="#64748B">THE TRICKLE · PIPELINES</text>
+    </g>
+  </g>
+
+
+  <!-- TIER 3: The Confluence / Stream (BACH & ellmos Flagship Sphere) -->
+  <g id="tier3-confluence">
+    <!-- Outer Equatorial Boundary Ring -->
+    <circle cx="1840" cy="340" r="168" fill="none" stroke="#00F0FF" stroke-width="2.5" opacity="0.6" filter="url(#softGlow)" />
+    <circle cx="1840" cy="340" r="176" fill="none" stroke="#38BDF8" stroke-width="1.2" opacity="0.3" stroke-dasharray="14 10" />
+    <circle cx="1840" cy="340" r="186" fill="none" stroke="#818CF8" stroke-width="1" opacity="0.2" stroke-dasharray="4 8" />
+
+    <!-- Tilted Elliptical Orbital Currents -->
+    <ellipse cx="1840" cy="340" rx="231.83999999999997" ry="75.60000000000001" fill="none" stroke="#00F0FF" stroke-width="1.6" opacity="0.35" stroke-dasharray="16 12" transform="rotate(-24, 1840, 340)" />
+    <ellipse cx="1840" cy="340" rx="210.0" ry="63.84" fill="none" stroke="#818CF8" stroke-width="1.4" opacity="0.3" stroke-dasharray="8 8" transform="rotate(32, 1840, 340)" />
+
+    <!-- Sphere Network Lines -->
+    <line x1="1777.1" y1="388.1" x2="1731.6" y2="457.8" stroke="#00F0FF" stroke-width="1.6" opacity="0.55" /> <line x1="1777.1" y1="388.1" x2="1683.3" y2="388.7" stroke="#00F0FF" stroke-width="1.1" opacity="0.45" /> <line x1="1777.1" y1="388.1" x2="1744.6" y2="475.0" stroke="#00F0FF" stroke-width="1.1" opacity="0.46" /> <line x1="1777.1" y1="388.1" x2="1834.3" y2="348.8" stroke="#00F0FF" stroke-width="1.6" opacity="0.68" /> <line x1="1777.1" y1="388.1" x2="1731.4" y2="335.9" stroke="#00F0FF" stroke-width="1.6" opacity="0.63" /> <line x1="1777.1" y1="388.1" x2="1834.3" y2="431.5" stroke="#00F0FF" stroke-width="1.6" opacity="0.65" /> <line x1="1777.1" y1="388.1" x2="1731.4" y2="418.6" stroke="#00F0FF" stroke-width="1.6" opacity="0.60" /> <line x1="1777.1" y1="388.1" x2="1791.8" y2="479.6" stroke="#00F0FF" stroke-width="1.6" opacity="0.58" /> <line x1="1777.1" y1="388.1" x2="1685.4" y2="360.3" stroke="#00F0FF" stroke-width="1.6" opacity="0.56" /> <line x1="1859.2" y1="290.5" x2="1813.4" y2="215.5" stroke="#00F0FF" stroke-width="1.6" opacity="0.63" /> <line x1="1859.2" y1="290.5" x2="1899.3" y2="232.6" stroke="#00F0FF" stroke-width="1.6" opacity="0.63" /> <line x1="1859.2" y1="290.5" x2="1834.3" y2="348.8" stroke="#00F0FF" stroke-width="1.6" opacity="0.69" /> <line x1="1859.2" y1="290.5" x2="1791.8" y2="274.2" stroke="#00F0FF" stroke-width="1.6" opacity="0.67" /> <line x1="1859.2" y1="290.5" x2="1905.6" y2="387.8" stroke="#00F0FF" stroke-width="1.6" opacity="0.67" /> <line x1="1731.6" y1="274.5" x2="1813.4" y2="215.5" stroke="#00F0FF" stroke-width="1.6" opacity="0.57" /> <line x1="1731.6" y1="274.5" x2="1683.3" y2="279.4" stroke="#00F0FF" stroke-width="1.1" opacity="0.45" /> <line x1="1731.6" y1="274.5" x2="1744.6" y2="213.3" stroke="#00F0FF" stroke-width="1.6" opacity="0.51" /> <line x1="1731.6" y1="274.5" x2="1679.3" y2="324.8" stroke="#38BDF8" stroke-width="1.1" opacity="0.40" /> <line x1="1731.6" y1="274.5" x2="1731.4" y2="335.9" stroke="#00F0FF" stroke-width="1.6" opacity="0.59" /> <line x1="1731.6" y1="274.5" x2="1791.8" y2="274.2" stroke="#00F0FF" stroke-width="1.6" opacity="0.61" /> <line x1="1731.6" y1="274.5" x2="1685.4" y2="360.3" stroke="#00F0FF" stroke-width="1.6" opacity="0.52" /> <line x1="1859.2" y1="473.8" x2="1813.4" y2="505.2" stroke="#00F0FF" stroke-width="1.1" opacity="0.45" /> <line x1="1859.2" y1="473.8" x2="1899.3" y2="494.3" stroke="#00F0FF" stroke-width="1.1" opacity="0.47" /> <line x1="1859.2" y1="473.8" x2="1834.3" y2="431.5" stroke="#00F0FF" stroke-width="1.6" opacity="0.59" /> <line x1="1859.2" y1="473.8" x2="1791.8" y2="479.6" stroke="#00F0FF" stroke-width="1.6" opacity="0.53" /> <line x1="1859.2" y1="473.8" x2="1905.6" y2="387.8" stroke="#00F0FF" stroke-width="1.6" opacity="0.60" /> <line x1="1731.6" y1="457.8" x2="1813.4" y2="505.2" stroke="#38BDF8" stroke-width="1.1" opacity="0.40" /> <line x1="1731.6" y1="457.8" x2="1683.3" y2="388.7" stroke="#38BDF8" stroke-width="1.1" opacity="0.34" /> <line x1="1731.6" y1="457.8" x2="1744.6" y2="475.0" stroke="#38BDF8" stroke-width="1.1" opacity="0.35" /> <line x1="1731.6" y1="457.8" x2="1834.3" y2="431.5" stroke="#00F0FF" stroke-width="1.6" opacity="0.54" /> <line x1="1731.6" y1="457.8" x2="1731.4" y2="418.6" stroke="#00F0FF" stroke-width="1.6" opacity="0.49" /> <line x1="1731.6" y1="457.8" x2="1791.8" y2="479.6" stroke="#00F0FF" stroke-width="1.1" opacity="0.47" /> <line x1="1731.6" y1="457.8" x2="1685.4" y2="360.3" stroke="#00F0FF" stroke-width="1.1" opacity="0.45" /> <line x1="1813.4" y1="215.5" x2="1899.3" y2="232.6" stroke="#00F0FF" stroke-width="1.6" opacity="0.58" /> <line x1="1813.4" y1="215.5" x2="1744.6" y2="213.3" stroke="#00F0FF" stroke-width="1.6" opacity="0.51" /> <line x1="1813.4" y1="215.5" x2="1791.8" y2="274.2" stroke="#00F0FF" stroke-width="1.6" opacity="0.61" /> <line x1="1813.4" y1="505.2" x2="1899.3" y2="494.3" stroke="#38BDF8" stroke-width="1.1" opacity="0.38" /> <line x1="1813.4" y1="505.2" x2="1744.6" y2="475.0" stroke="#38BDF8" stroke-width="1.1" opacity="0.31" /> <line x1="1813.4" y1="505.2" x2="1834.3" y2="431.5" stroke="#00F0FF" stroke-width="1.6" opacity="0.50" /> <line x1="1813.4" y1="505.2" x2="1791.8" y2="479.6" stroke="#38BDF8" stroke-width="1.1" opacity="0.43" /> <line x1="1966.1" y1="314.7" x2="1899.3" y2="232.6" stroke="#00F0FF" stroke-width="1.6" opacity="0.57" /> <line x1="1966.1" y1="314.7" x2="1989.7" y2="363.6" stroke="#00F0FF" stroke-width="1.6" opacity="0.53" /> <line x1="1966.1" y1="314.7" x2="1905.6" y2="387.8" stroke="#00F0FF" stroke-width="1.6" opacity="0.61" /> <line x1="1683.3" y1="279.4" x2="1744.6" y2="213.3" stroke="#38BDF8" stroke-width="1.1" opacity="0.39" /> <line x1="1683.3" y1="279.4" x2="1679.3" y2="324.8" stroke="#38BDF8" stroke-width="1.1" opacity="0.27" /> <line x1="1683.3" y1="279.4" x2="1731.4" y2="335.9" stroke="#00F0FF" stroke-width="1.1" opacity="0.47" /> <line x1="1683.3" y1="279.4" x2="1791.8" y2="274.2" stroke="#00F0FF" stroke-width="1.6" opacity="0.49" /> <line x1="1683.3" y1="279.4" x2="1685.4" y2="360.3" stroke="#38BDF8" stroke-width="1.1" opacity="0.39" /> <line x1="1966.1" y1="424.0" x2="1899.3" y2="494.3" stroke="#00F0FF" stroke-width="1.1" opacity="0.44" /> <line x1="1966.1" y1="424.0" x2="1989.7" y2="363.6" stroke="#00F0FF" stroke-width="1.6" opacity="0.49" /> <line x1="1966.1" y1="424.0" x2="1905.6" y2="387.8" stroke="#00F0FF" stroke-width="1.6" opacity="0.57" /> <line x1="1683.3" y1="388.7" x2="1744.6" y2="475.0" stroke="#38BDF8" stroke-width="1.1" opacity="0.25" /> <line x1="1683.3" y1="388.7" x2="1731.4" y2="335.9" stroke="#38BDF8" stroke-width="1.1" opacity="0.43" /> <line x1="1683.3" y1="388.7" x2="1731.4" y2="418.6" stroke="#38BDF8" stroke-width="1.1" opacity="0.40" /> <line x1="1683.3" y1="388.7" x2="1685.4" y2="360.3" stroke="#38BDF8" stroke-width="1.1" opacity="0.35" /> <line x1="1744.6" y1="213.3" x2="1791.8" y2="274.2" stroke="#00F0FF" stroke-width="1.6" opacity="0.55" /> <line x1="1899.3" y1="494.3" x2="1834.3" y2="431.5" stroke="#00F0FF" stroke-width="1.6" opacity="0.52" /> <line x1="1899.3" y1="494.3" x2="1791.8" y2="479.6" stroke="#00F0FF" stroke-width="1.1" opacity="0.45" /> <line x1="1899.3" y1="494.3" x2="1905.6" y2="387.8" stroke="#00F0FF" stroke-width="1.6" opacity="0.52" /> <line x1="1744.6" y1="475.0" x2="1834.3" y2="431.5" stroke="#00F0FF" stroke-width="1.1" opacity="0.45" /> <line x1="1744.6" y1="475.0" x2="1731.4" y2="418.6" stroke="#38BDF8" stroke-width="1.1" opacity="0.40" /> <line x1="1744.6" y1="475.0" x2="1791.8" y2="479.6" stroke="#38BDF8" stroke-width="1.1" opacity="0.38" /> <line x1="1989.7" y1="363.6" x2="1905.6" y2="387.8" stroke="#00F0FF" stroke-width="1.6" opacity="0.57" /> <line x1="1679.3" y1="324.8" x2="1731.4" y2="335.9" stroke="#38BDF8" stroke-width="1.1" opacity="0.42" /> <line x1="1679.3" y1="324.8" x2="1731.4" y2="418.6" stroke="#38BDF8" stroke-width="1.1" opacity="0.39" /> <line x1="1679.3" y1="324.8" x2="1685.4" y2="360.3" stroke="#38BDF8" stroke-width="1.1" opacity="0.34" /> <line x1="1834.3" y1="348.8" x2="1731.4" y2="335.9" stroke="#00F0FF" stroke-width="1.6" opacity="0.66" /> <line x1="1834.3" y1="348.8" x2="1834.3" y2="431.5" stroke="#00F0FF" stroke-width="1.6" opacity="0.67" /> <line x1="1834.3" y1="348.8" x2="1791.8" y2="274.2" stroke="#00F0FF" stroke-width="1.6" opacity="0.68" /> <line x1="1834.3" y1="348.8" x2="1905.6" y2="387.8" stroke="#00F0FF" stroke-width="1.6" opacity="0.68" /> <line x1="1731.4" y1="335.9" x2="1731.4" y2="418.6" stroke="#00F0FF" stroke-width="1.6" opacity="0.58" /> <line x1="1731.4" y1="335.9" x2="1791.8" y2="274.2" stroke="#00F0FF" stroke-width="1.6" opacity="0.63" /> <line x1="1731.4" y1="335.9" x2="1685.4" y2="360.3" stroke="#00F0FF" stroke-width="1.6" opacity="0.54" /> <line x1="1834.3" y1="431.5" x2="1731.4" y2="418.6" stroke="#00F0FF" stroke-width="1.6" opacity="0.60" /> <line x1="1834.3" y1="431.5" x2="1791.8" y2="479.6" stroke="#00F0FF" stroke-width="1.6" opacity="0.57" /> <line x1="1834.3" y1="431.5" x2="1905.6" y2="387.8" stroke="#00F0FF" stroke-width="1.6" opacity="0.65" /> <line x1="1731.4" y1="418.6" x2="1791.8" y2="479.6" stroke="#00F0FF" stroke-width="1.6" opacity="0.53" /> <line x1="1731.4" y1="418.6" x2="1685.4" y2="360.3" stroke="#00F0FF" stroke-width="1.6" opacity="0.51" />
+
+    <!-- Sphere Network Nodes -->
+    <circle cx="1777.1" cy="388.1" r="14.9" fill="#00F0FF" opacity="0.24" /><circle cx="1777.1" cy="388.1" r="7.5" fill="#00F0FF" opacity="0.95" filter="url(#softGlow)" /><circle cx="1777.1" cy="388.1" r="3.0" fill="#FFFFFF" opacity="0.95" /> <circle cx="1859.2" cy="290.5" r="13.0" fill="#00F0FF" opacity="0.24" /><circle cx="1859.2" cy="290.5" r="6.5" fill="#00F0FF" opacity="0.98" filter="url(#softGlow)" /><circle cx="1859.2" cy="290.5" r="2.6" fill="#FFFFFF" opacity="0.98" /> <circle cx="1731.6" cy="274.5" r="11.0" fill="#00F0FF" opacity="0.21" /><circle cx="1731.6" cy="274.5" r="5.5" fill="#00F0FF" opacity="0.84" filter="url(#softGlow)" /><circle cx="1731.6" cy="274.5" r="2.2" fill="#FFFFFF" opacity="0.84" /> <circle cx="1859.2" cy="473.8" r="11.7" fill="#00F0FF" opacity="0.20" /><circle cx="1859.2" cy="473.8" r="5.9" fill="#00F0FF" opacity="0.81" filter="url(#softGlow)" /><circle cx="1859.2" cy="473.8" r="2.3" fill="#FFFFFF" opacity="0.81" /> <circle cx="1731.6" cy="457.8" r="9.8" fill="#00F0FF" opacity="0.17" /><circle cx="1731.6" cy="457.8" r="4.9" fill="#00F0FF" opacity="0.68" filter="url(#softGlow)" /><circle cx="1731.6" cy="457.8" r="2.0" fill="#FFFFFF" opacity="0.68" /> <circle cx="1813.4" cy="215.5" r="11.9" fill="#00F0FF" opacity="0.21" /><circle cx="1813.4" cy="215.5" r="6.0" fill="#00F0FF" opacity="0.84" filter="url(#softGlow)" /><circle cx="1813.4" cy="215.5" r="2.4" fill="#FFFFFF" opacity="0.84" /> <circle cx="1813.4" cy="505.2" r="9.9" fill="#38BDF8" opacity="0.15" /><circle cx="1813.4" cy="505.2" r="5.0" fill="#38BDF8" opacity="0.58" filter="url(#softGlow)" /><circle cx="1813.4" cy="505.2" r="2.0" fill="#FFFFFF" opacity="0.58" /> <circle cx="1966.1" cy="314.7" r="10.9" fill="#00F0FF" opacity="0.21" /><circle cx="1966.1" cy="314.7" r="5.5" fill="#00F0FF" opacity="0.84" filter="url(#softGlow)" /><circle cx="1966.1" cy="314.7" r="2.2" fill="#FFFFFF" opacity="0.84" /> <circle cx="1683.3" cy="279.4" r="8.8" fill="#38BDF8" opacity="0.13" /><circle cx="1683.3" cy="279.4" r="4.4" fill="#38BDF8" opacity="0.54" filter="url(#softGlow)" /><circle cx="1683.3" cy="279.4" r="1.8" fill="#FFFFFF" opacity="0.54" /> <circle cx="1966.1" cy="424.0" r="10.2" fill="#00F0FF" opacity="0.18" /><circle cx="1966.1" cy="424.0" r="5.1" fill="#00F0FF" opacity="0.74" filter="url(#softGlow)" /><circle cx="1966.1" cy="424.0" r="2.0" fill="#FFFFFF" opacity="0.74" /> <circle cx="1683.3" cy="388.7" r="8.1" fill="#38BDF8" opacity="0.11" /><circle cx="1683.3" cy="388.7" r="4.0" fill="#38BDF8" opacity="0.44" filter="url(#softGlow)" /><circle cx="1683.3" cy="388.7" r="1.6" fill="#FFFFFF" opacity="0.44" /> <circle cx="1899.3" cy="232.6" r="10.0" fill="#00F0FF" opacity="0.21" /><circle cx="1899.3" cy="232.6" r="5.0" fill="#00F0FF" opacity="0.85" filter="url(#softGlow)" /><circle cx="1899.3" cy="232.6" r="2.0" fill="#FFFFFF" opacity="0.85" /> <circle cx="1744.6" cy="213.3" r="9.0" fill="#00F0FF" opacity="0.17" /><circle cx="1744.6" cy="213.3" r="4.5" fill="#00F0FF" opacity="0.69" filter="url(#softGlow)" /><circle cx="1744.6" cy="213.3" r="1.8" fill="#FFFFFF" opacity="0.69" /> <circle cx="1899.3" cy="494.3" r="8.5" fill="#38BDF8" opacity="0.16" /><circle cx="1899.3" cy="494.3" r="4.3" fill="#38BDF8" opacity="0.62" filter="url(#softGlow)" /><circle cx="1899.3" cy="494.3" r="1.7" fill="#FFFFFF" opacity="0.62" /> <circle cx="1744.6" cy="475.0" r="7.5" fill="#38BDF8" opacity="0.11" /><circle cx="1744.6" cy="475.0" r="3.7" fill="#38BDF8" opacity="0.46" filter="url(#softGlow)" /><circle cx="1744.6" cy="475.0" r="1.5" fill="#FFFFFF" opacity="0.46" /> <circle cx="1989.7" cy="363.6" r="11.2" fill="#00F0FF" opacity="0.18" /><circle cx="1989.7" cy="363.6" r="5.6" fill="#00F0FF" opacity="0.74" filter="url(#softGlow)" /><circle cx="1989.7" cy="363.6" r="2.2" fill="#FFFFFF" opacity="0.74" /> <circle cx="1679.3" cy="324.8" r="8.6" fill="#38BDF8" opacity="0.10" /><circle cx="1679.3" cy="324.8" r="4.3" fill="#38BDF8" opacity="0.41" filter="url(#softGlow)" /><circle cx="1679.3" cy="324.8" r="1.7" fill="#FFFFFF" opacity="0.41" /> <circle cx="1834.3" cy="348.8" r="11.0" fill="#00F0FF" opacity="0.25" /><circle cx="1834.3" cy="348.8" r="5.5" fill="#00F0FF" opacity="1.00" filter="url(#softGlow)" /><circle cx="1834.3" cy="348.8" r="2.2" fill="#FFFFFF" opacity="1.00" /> <circle cx="1731.4" cy="335.9" r="10.3" fill="#00F0FF" opacity="0.22" /><circle cx="1731.4" cy="335.9" r="5.1" fill="#00F0FF" opacity="0.89" filter="url(#softGlow)" /><circle cx="1731.4" cy="335.9" r="2.1" fill="#FFFFFF" opacity="0.89" /> <circle cx="1834.3" cy="431.5" r="10.5" fill="#00F0FF" opacity="0.23" /><circle cx="1834.3" cy="431.5" r="5.3" fill="#00F0FF" opacity="0.93" filter="url(#softGlow)" /><circle cx="1834.3" cy="431.5" r="2.1" fill="#FFFFFF" opacity="0.93" /> <circle cx="1731.4" cy="418.6" r="9.8" fill="#00F0FF" opacity="0.20" /><circle cx="1731.4" cy="418.6" r="4.9" fill="#00F0FF" opacity="0.82" filter="url(#softGlow)" /><circle cx="1731.4" cy="418.6" r="2.0" fill="#FFFFFF" opacity="0.82" /> <circle cx="1791.8" cy="274.2" r="11.7" fill="#00F0FF" opacity="0.24" /><circle cx="1791.8" cy="274.2" r="5.8" fill="#00F0FF" opacity="0.94" filter="url(#softGlow)" /><circle cx="1791.8" cy="274.2" r="2.3" fill="#FFFFFF" opacity="0.94" /> <circle cx="1791.8" cy="479.6" r="10.4" fill="#00F0FF" opacity="0.19" /><circle cx="1791.8" cy="479.6" r="5.2" fill="#00F0FF" opacity="0.76" filter="url(#softGlow)" /><circle cx="1791.8" cy="479.6" r="2.1" fill="#FFFFFF" opacity="0.76" /> <circle cx="1905.6" cy="387.8" r="12.8" fill="#00F0FF" opacity="0.24" /><circle cx="1905.6" cy="387.8" r="6.4" fill="#00F0FF" opacity="0.94" filter="url(#softGlow)" /><circle cx="1905.6" cy="387.8" r="2.6" fill="#FFFFFF" opacity="0.94" /> <circle cx="1685.4" cy="360.3" r="10.9" fill="#00F0FF" opacity="0.18" /><circle cx="1685.4" cy="360.3" r="5.5" fill="#00F0FF" opacity="0.71" filter="url(#softGlow)" /><circle cx="1685.4" cy="360.3" r="2.2" fill="#FFFFFF" opacity="0.71" />
+
+    <!-- Central Glyph -->
+    
+  <!-- Flagship Prompt Chevron Symbol (Matching ellmos-logo.jpg) -->
+  <g id="center-glyph" transform="translate(1840, 340) scale(1.15)">
+    <!-- Left chevron < -->
+    <path d="M-62,-38 L-82,0 L-62,38 L-48,38 L-68,0 L-48,-38 Z" fill="url(#glyphGrad)" filter="url(#glowCyan)" />
+
+    <!-- Center Horizontal Track Bars -->
+    <rect x="-38" y="-36" width="76" height="11" rx="5.5" fill="url(#glyphGrad)" filter="url(#softGlow)" />
+    <rect x="-38" y="25" width="76" height="11" rx="5.5" fill="url(#glyphGrad)" filter="url(#softGlow)" />
+
+    <!-- Center Terminal Prompt glyph: > _ . -->
+    <g transform="translate(-18, -4)">
+      <!-- Prompt > -->
+      <path d="M-12,-11 L-2,0 L-12,11" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glowCyan)" />
+      <!-- Cursor _ -->
+      <line x1="4" y1="9" x2="20" y2="9" stroke="#00F0FF" stroke-width="4.5" stroke-linecap="round" filter="url(#glowCyan)" />
+      <!-- Dot . -->
+      <circle cx="28" cy="9" r="2.8" fill="#00F0FF" filter="url(#softGlow)" />
+    </g>
+
+    <!-- Right Large Fast-Forward Chevron > -->
+    <path d="M48,-62 L88,0 L48,62 L32,62 L72,0 L32,-62 Z" fill="url(#glyphGrad)" filter="url(#intenseGlow)" />
+  </g>
+
+
+    <!-- Tier Milestone Indicator -->
+    <g transform="translate(1840, 542)">
+      <text text-anchor="middle" font-family="'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="700" letter-spacing="3.5" fill="#38BDF8" opacity="0.95">BACH · CONFLUENCE</text>
+      <text y="15" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="500" letter-spacing="1.5" fill="#64748B">THE STREAM THAT UNITES EVERYTHING</text>
+    </g>
+  </g>
+
+  <!-- Stream Flow Particles -->
+  <g id="particles">
+    <circle cx="380" cy="505" r="2.0" fill="#00F0FF" opacity="0.7" filter="url(#softGlow)" />
+    <circle cx="440" cy="480" r="1.5" fill="#00F0FF" opacity="0.6" filter="url(#softGlow)" />
+    <circle cx="510" cy="520" r="2.5" fill="#00F0FF" opacity="0.8" filter="url(#softGlow)" />
+    <circle cx="620" cy="450" r="1.8" fill="#00F0FF" opacity="0.65" filter="url(#softGlow)" />
+    <circle cx="710" cy="420" r="2.2" fill="#00F0FF" opacity="0.75" filter="url(#softGlow)" />
+    <circle cx="820" cy="460" r="1.5" fill="#00F0FF" opacity="0.5" filter="url(#softGlow)" />
+    <circle cx="880" cy="405" r="2.0" fill="#00F0FF" opacity="0.7" filter="url(#softGlow)" />
+    <circle cx="940" cy="470" r="2.8" fill="#00F0FF" opacity="0.85" filter="url(#softGlow)" />
+    <circle cx="1160" cy="420" r="2.0" fill="#00F0FF" opacity="0.6" filter="url(#softGlow)" />
+    <circle cx="1240" cy="390" r="1.6" fill="#00F0FF" opacity="0.7" filter="url(#softGlow)" />
+    <circle cx="1310" cy="460" r="2.2" fill="#00F0FF" opacity="0.75" filter="url(#softGlow)" />
+    <circle cx="1390" cy="370" r="1.8" fill="#00F0FF" opacity="0.6" filter="url(#softGlow)" />
+    <circle cx="1470" cy="410" r="2.5" fill="#00F0FF" opacity="0.8" filter="url(#softGlow)" />
+    <circle cx="1540" cy="340" r="2.0" fill="#00F0FF" opacity="0.7" filter="url(#softGlow)" />
+    <circle cx="1600" cy="380" r="1.5" fill="#00F0FF" opacity="0.5" filter="url(#softGlow)" />
+    <circle cx="1660" cy="310" r="2.2" fill="#00F0FF" opacity="0.8" filter="url(#softGlow)" />
+    <circle cx="2080" cy="310" r="2.5" fill="#00F0FF" opacity="0.85" filter="url(#softGlow)" />
+    <circle cx="2140" cy="270" r="1.8" fill="#00F0FF" opacity="0.6" filter="url(#softGlow)" />
+    <circle cx="2210" cy="330" r="2.0" fill="#00F0FF" opacity="0.7" filter="url(#softGlow)" />
+    <circle cx="2270" cy="290" r="1.5" fill="#00F0FF" opacity="0.5" filter="url(#softGlow)" />
+    <circle cx="2340" cy="260" r="2.2" fill="#00F0FF" opacity="0.75" filter="url(#softGlow)" />
+    <circle cx="2380" cy="310" r="1.6" fill="#00F0FF" opacity="0.6" filter="url(#softGlow)" />
+  </g>
+
+
+  <!-- BRAND IDENTITY & TYPOGRAPHY -->
+  <g id="brand-typography" transform="translate(140, 0)">
+    
+    <!-- System Kicker / Descriptor -->
+    <g transform="translate(0, 155)">
+      <!-- Electric cyan indicator accent -->
+      <polygon points="0,0 8,-5 8,5" fill="#00F0FF" filter="url(#softGlow)" />
+      <circle cx="16" cy="0" r="2.5" fill="#38BDF8" />
+      <text x="30" y="4" font-family="'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700" letter-spacing="4" fill="#38BDF8" opacity="0.95">LOCAL-FIRST LLM OPERATING SYSTEMS</text>
+    </g>
+
+    <!-- Main Wordmark "ellmos" -->
+    <!-- Large, pristine geometric sans wordmark with subtle cyan radiance -->
+    <g transform="translate(0, 270)">
+      <!-- Subtle shadow glow behind wordmark -->
+      <text x="0" y="0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Inter', Helvetica, sans-serif" font-size="112" font-weight="900" letter-spacing="-2" fill="#00F0FF" opacity="0.25" filter="url(#glowCyan)">ellmos</text>
+      <!-- Crisp White/Cyan Gradient Wordmark -->
+      <text x="0" y="0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Inter', Helvetica, sans-serif" font-size="112" font-weight="900" letter-spacing="-2" fill="url(#wordmarkGrad)">ellmos</text>
+      <!-- Complementary electric '-ai' accent echoing the official organization identity -->
+      <text x="360" y="0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Inter', Helvetica, sans-serif" font-size="112" font-weight="900" letter-spacing="-2" fill="#00F0FF" filter="url(#softGlow)">-ai</text>
+    </g>
+
+    <!-- Guiding Tagline -->
+    <g transform="translate(0, 325)">
+      <text font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="400" letter-spacing="0.2">
+        <tspan fill="#F8FAFC" font-weight="600">From a spring to a stream</tspan>
+        <tspan fill="#00F0FF" font-weight="300"> — </tspan>
+        <tspan fill="#94A3B8" font-weight="400">LLM operating systems that flow.</tspan>
+      </text>
+    </g>
+
+    <!-- Architecture Core Capabilities (Grounding the OS Metaphor) -->
+    <g transform="translate(0, 375)">
+      <!-- Subtle horizontal divider line -->
+      <line x1="0" y1="0" x2="680" y2="0" stroke="#1E293B" stroke-width="1.5" />
+      <line x1="0" y1="0" x2="220" y2="0" stroke="#00F0FF" stroke-width="1.5" opacity="0.6" filter="url(#softGlow)" />
+
+      <!-- Feature Tags in tracked technical style -->
+      <g transform="translate(0, 28)">
+        <text font-family="'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" font-weight="500" letter-spacing="1.5" fill="#64748B">
+          <tspan fill="#38BDF8">◆</tspan> AGENT MEMORY   
+          <tspan fill="#38BDF8">◆</tspan> TASK STATE   
+          <tspan fill="#38BDF8">◆</tspan> MCP TOOLS   
+          <tspan fill="#38BDF8">◆</tspan> MODEL ROUTING   
+          <tspan fill="#38BDF8">◆</tspan> MULTI-AGENT
+        </text>
+      </g>
+    </g>
+
+  </g>
+
+</svg>
