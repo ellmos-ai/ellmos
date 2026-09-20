@@ -1,5 +1,3 @@
-<img src="assets/banner.png" width="100%" alt="Ellmos banner">
-
 <p align="center">
   <img src="ellmos-logo.jpg" alt="ellmos logo" width="400">
 </p>
